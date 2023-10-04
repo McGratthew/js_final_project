@@ -1,0 +1,104 @@
+body {
+    /* background: orange; */
+    font-size: 1.25em;
+    width: 80%;
+    margin: auto;
+}
+.container {
+    margin: auto;
+    margin-top: 60px;
+    width: 80%;
+    text-align: center;
+    background: white;
+    padding: 5%;
+    margin-bottom: 30px;
+}
+h2{
+    color: blue;
+}
+h3{
+    color: blue;
+    text-align: center;
+}
+.center-button{
+    margin: auto;
+    text-align: center;
+    font-size: large;
+}
+
+.results{
+    text-transform: capitalize;
+}
+
+
+/* tabs */
+.tabs > ul {
+    padding: 0;
+}
+.tabs .trigger {
+    list-style-type: none;
+    /* padding: 2px; /** 10px */
+    background: #cac6c6;
+    /* margin: 6px; /* 4px */ /* this is space between the tabs */
+    border-radius: 6px;
+    display: inline-block;
+    padding: 10px 10px; /* 10px 20px */
+    cursor: pointer;
+}
+.tabs .trigger.active {
+    background: blue;
+    color: white;
+}
+.tabs .content{
+    padding: 10px 20px;
+    border-radius: 6px;
+    display: none;
+}
+.tabs .content.active {
+    display: block;
+}
+
+form {
+    margin: 10px;
+    padding: 5px;
+}
+
+form > input {
+  font-size: x-large;
+}
+
+.new-game { 
+   font-size: x-large;
+   margin-top: 5%;
+   background-color: blue;
+   color: white;
+}
+
+.hidden {
+  display: none;
+}
+
+.feedback {
+  font-size: xx-large;
+  padding: 3px;
+}
+
+.tooBig {
+  background-color: pink;
+  color: blue;
+}
+
+.tooSmall {
+  background-color: lightblue;
+  color: blue;
+}
+
+.tooMany {
+  background-color: red;
+  color: black;
+}
+
+.justRight {
+  background-color: lightgreen;
+  color: green;
+}
